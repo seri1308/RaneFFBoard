@@ -1,0 +1,191 @@
+{
+  "uuid": "943b859d023d59ae819b21a19357bef1",
+  "path": "Offline/RaneFFboard",
+  "name": "RaneFFboard",
+  "content": "",
+  "created_at": "2022-08-05 19:36:54",
+  "updated_at": "2022-08-05 19:38:18",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b77becf1f2179e938e73c5f558a112cc",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c2ec67bf2a1b4ed494284e007516db76": 1,
+        "849fa832663240e8ad9da9b61a789174": 2,
+        "2311d914e2df4d2a8cf39f02321a8979": 8,
+        "aad50653aa9845c28a2dcfe00911ed56": 1,
+        "eae9a4cb5aae46309cec985352fb9f53": 1,
+        "77b1282a26bc488dbc70f0fd0e5d28f2": 4,
+        "0b8ee7367f9142c39aea0408048ab7e6": 1,
+        "877060ac39e34c04a1bb96340e4c3712": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          4,
+          "C2012",
+          "C1,C2,C3,C4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "f5f83995051b4b58849fdc3ab7b503f5",
+            "uuid": "77b1282a26bc488dbc70f0fd0e5d28f2"
+          }
+        ],
+        [
+          "LED0805",
+          1,
+          "LED0805-RD",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900012722",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "led0805",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "aad50653aa9845c28a2dcfe00911ed56"
+          }
+        ],
+        [
+          "1K",
+          7,
+          "2012",
+          "R1,R2,R3,R4,R5,R6,R7",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "417a0173078d425f954e513b973819bb",
+            "uuid": "2311d914e2df4d2a8cf39f02321a8979"
+          }
+        ],
+        [
+          "220W",
+          1,
+          "2012",
+          "R8",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "417a0173078d425f954e513b973819bb",
+            "uuid": "2311d914e2df4d2a8cf39f02321a8979"
+          }
+        ],
+        [
+          "BTS7960B",
+          1,
+          "BTS7960B",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "1d1cffef3446409f9e81dd939d0d6b5d",
+            "uuid": "877060ac39e34c04a1bb96340e4c3712"
+          }
+        ],
+        [
+          "ARDUINO_LEONARDO_SHIELDNO_SILK",
+          1,
+          "ARDUINO_LEONARDO_SHIELD",
+          "U2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f4507e935de3450eabc5796900f72a09",
+            "uuid": "c2ec67bf2a1b4ed494284e007516db76"
+          }
+        ],
+        [
+          "JST_1x6",
+          1,
+          "JST XH 1X6",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "c56ed78c7d8d416cbb4622f0cf567ddb",
+            "uuid": "0b8ee7367f9142c39aea0408048ab7e6"
+          }
+        ],
+        [
+          "1X4 JST XH COPY",
+          1,
+          "1X4 JST XH",
+          "U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "1cfc389a85b042fca6b5ac78298bf45c",
+            "uuid": "eae9a4cb5aae46309cec985352fb9f53"
+          }
+        ],
+        [
+          "JST XH 1x5",
+          2,
+          "JST XH 1X5",
+          "U5,U6",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "b87d31fe3c2f4cc5b7955864bcb82497",
+            "uuid": "849fa832663240e8ad9da9b61a789174"
+          }
+        ]
+      ],
+      "updateTime": 1659717498,
+      "createTime": 1659717498,
+      "histories": [],
+      "created_at": "2022-08-05 19:38:18",
+      "updated_at": "2022-08-05 19:38:18"
+    },
+    {
+      "uuid": "f82bece1d7287064a7bcde1edfec6afe",
+      "puuid": "943b859d023d59ae819b21a19357bef1",
+      "title": "PCB_RaneFFBoard",
+      "filename": "PCB_RaneFFBoard.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f4507e935de3450eabc5796900f72a09": 1,
+        "b87d31fe3c2f4cc5b7955864bcb82497": 2,
+        "417a0173078d425f954e513b973819bb": 8,
+        "a267edbe7c3c4a16b85fd51e936458d0": 1,
+        "f5f83995051b4b58849fdc3ab7b503f5": 4,
+        "1d1cffef3446409f9e81dd939d0d6b5d": 1,
+        "1cfc389a85b042fca6b5ac78298bf45c": 1,
+        "c56ed78c7d8d416cbb4622f0cf567ddb": 1
+      },
+      "BOM": [],
+      "updateTime": 1659717414,
+      "createTime": 1659717414,
+      "histories": [],
+      "created_at": "2022-08-05 19:36:54",
+      "updated_at": "2022-08-05 19:36:54"
+    }
+  ],
+  "sort": [],
+  "title": "RaneFFboard",
+  "foldername": "RaneFFboard",
+  "schfilename": "RaneFFboard.json",
+  "schfilemtime": 1659717498572
+}
